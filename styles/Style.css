@@ -109,7 +109,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    background-image: url("/TASK1/image/landing-background.jpg");
+    background-image: url("/image/landing-background.jpg");
     background-size: cover; 
     background-position: center;
     border-top-left-radius: 30px;
