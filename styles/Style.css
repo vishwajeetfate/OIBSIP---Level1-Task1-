@@ -1,0 +1,592 @@
+/* Header styles */
+.header {
+    background-color: #fbfbfb;
+
+    color: #000000;
+    width: 98.8%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.header a{
+    color: #000000;
+}
+.header img{
+    width: 45%;
+}
+
+/* Left section styles */
+.left_section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+    width: 20%;
+}
+
+/* Right section styles */
+.right_section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 0%;
+}
+.last_section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 0%
+}
+
+/* Menu item styles */
+.menu-item{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.fa-caret-down:before {
+    content: "\f0d7";
+}
+.menu-item i {
+    padding-left: 4px;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+/* Buy button styles */
+.Buy_button {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgba(85, 58, 31, 0.778);
+    padding: 15px 36px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+.Buy_button:hover {
+    background-color: rgba(55, 29, 2, 0.979);
+    padding: 20px 45px; /* Increase padding on hover to make the button bigger */
+}
+
+
+/* Landing section styles */
+#landing-section {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Main text wrapper styles */
+#main-text-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-image: url("/image/landing-background.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#main-text-wrapper h1 {
+    color: #fff;
+    font-weight: 1000;
+    margin-left: 20Px;
+}
+#main-text-wrapper h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 20Px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#main-text-wrapper p {
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+/* General section styles */
+section {
+    display: block; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+/* Fresh food heading styles */
+#fresh-food-heading {
+    color: rgba(55, 29, 2, 0.979);
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 50% ;
+}
+
+/* Store description styles */
+#store-desc {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+    margin-left:20% ;
+}
+
+/* Store items wrapper styles */
+#store-items-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+}
+
+/* Store item styles */
+.store-item {
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3b375;
+    border-radius: 60%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+}
+.icon-wrapper i {
+    font-size: 60px;
+}
+
+.store-item p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+
+/* Testimonials section styles */
+#testimonials-section {
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+/* Testimonials heading styles */
+#testimonials-heading {
+    color: rgba(85, 58, 31, 0.778);
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+/* Testimonials description styles */
+#testimonials-desc {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+
+/* Testimonials wrapper styles */
+#testimonials-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Testimonial item styles */
+.testimonial-item {
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+}
+
+/* Testimonial image styles */
+.testimonial-item img {
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+/* Testimonial message styles */
+.testimonial-message {
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Testimonial name styles */
+.testimonial-item h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+/* Testimonial job role styles */
+.job-role {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+/* Follow section styles */
+#follow-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+/* Left section styles */
+#left-section {
+    width: 67%;
+    display: inline-block;
+    margin: 0;
+}
+
+/* Left section image styles */
+#left-section img {
+    width: 100%;
+}
+
+/* Right section styles */
+#right-section {
+    width: 33.33%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(/TASK1/image/follow.png);
+    background-position: left;
+    background-size: cover;
+    color: #46271b;
+}
+
+/* Text wrapper styles */
+#right-section #text-wrapper {
+    margin: 115px;
+}
+
+/* Stats section styles */
+#stats-section {
+    width: 100%;
+    background-color: #f6fcfa;
+    display: block;
+}
+/* Stats wrapper styles */
+#stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+}
+
+/* Email subscription input styles */
+#subscribe-email {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+
+/* Subscribe button styles */
+#subscribe-btn {
+    background-color: #624128;
+    padding: 16px 42px;
+    border-radius: 4px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+/* Stats section styles (duplicate) */
+#stats-section {
+    width: 100%;
+    display: block;
+    background-color: #f6fcfa;
+}
+
+/* Stats wrapper styles (duplicate) */
+#stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+}
+
+/* Stats item styles */
+.stats-item {
+    width: 25%;
+    padding: 0 64px;
+}
+
+/* Stats heading styles */
+.stats-item h3 {
+    font-size: 44px;
+    display: block;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Stats value styles */
+.stats-item p {
+    color:rgba(85, 58, 31, 0.778);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Line separator styles */
+#line-separator {
+    width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+
+/* Address wrapper styles */
+#address-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    padding-top: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+#address-wrapper1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#address-wrapper2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+/* Green heading styles */
+.green-heading {
+    color: rgba(85, 58, 31, 0.778);
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+/* Green heading paragraph styles */
+.green-heading p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Section heading styles */
+.section-heading {
+    font-size: 600;
+    font-size: 44px;
+    margin: 0;
+}
+
+/* Section description styles */
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+/* Address heading styles */
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+/* General heading styles */
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* Address lines styles */
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+/* General paragraph styles */
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Input box styles */
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* General input styles */
+input, textarea {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+/* Specific input type styles */
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+/* Submit button styles */
+#btn-submit {
+    font-size: 16px;
+}
+
+/* Primary button styles */
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #624128;
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.primary-button:hover {
+    background-color: rgba(55, 29, 2, 0.979);
+    padding: 20px 45px; /* Increase padding on hover to make the button bigger */
+}
+
+
+/*gallery*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+    width: calc(25% - 20px); /* Adjust margins for spacing */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
